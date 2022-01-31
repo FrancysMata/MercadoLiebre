@@ -33,8 +33,6 @@ app.get('/login', function(req, res) {
 app.use(express.static(path.join(__dirname, './public')))
 app.use(express.static(path.join(__dirname, './views')))
 
- app.listen (3030, ()=>
- console.log ('Servidor Corriendo'))
 
  app.listen(process.env.PORT || 3000, function() {
     console.log("Servidor corriendo");
