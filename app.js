@@ -6,7 +6,7 @@ app.get ('/', (req, res)=>{
     res.send ('Ya entré')
 })
 
-app.get ('/mipagina', (req, res)=> {
+app.get ('/', (req, res)=> {
     res.sendFile(path.resolve(__dirname, './views/index.html')
 )});
 
